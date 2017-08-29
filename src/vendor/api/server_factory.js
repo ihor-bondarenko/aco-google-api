@@ -2,10 +2,9 @@
 
 const util = require('util');
 const eventEmitter = require('events').EventEmitter;
-const fs = require('fs');
 
 class ApiServerFactory {
-    constructor(){}
+    constructor(){};
 }
 
 util.inherits(ApiServerFactory, eventEmitter);
