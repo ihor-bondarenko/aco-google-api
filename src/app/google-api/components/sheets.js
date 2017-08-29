@@ -6,7 +6,7 @@ class GoogleSheets {
     }
     getSheets() {
         this.sheets.spreadsheets.values.get({
-            spreadsheetId: '1QIKV6noUrpilC4_mu1lO0ZG7C5adAS7c_dt6fCKTInk',
+            //spreadsheetId: '1QIKV6noUrpilC4_mu1lO0ZG7C5adAS7c_dt6fCKTInk',
             range: 'A:N'
         }, function(err, response) {
             if (err) {
@@ -28,7 +28,7 @@ class GoogleSheets {
     }
     batchGet() {
         this.sheets.spreadsheets.get({
-            spreadsheetId: '1QIKV6noUrpilC4_mu1lO0ZG7C5adAS7c_dt6fCKTInk'
+            //spreadsheetId: '1QIKV6noUrpilC4_mu1lO0ZG7C5adAS7c_dt6fCKTInk'
         }, function(err, response) {
             if (err) {
                 console.error(err);
